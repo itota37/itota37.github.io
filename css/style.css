@@ -27,7 +27,7 @@ li {
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 5px;
+    padding: 5px 10%;
     color: silver;
     background-color: #080808;
 }
@@ -36,6 +36,7 @@ li {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 0px 10%;
     text-align: center;
     color: silver;
     background-color: #080808;
@@ -44,6 +45,8 @@ li {
 .main {
     margin-top: 100px;
     margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-left: auto;
     margin-right: auto;
 }
