@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <!--index.html-->
-  <!--githubで公開するドキュメントのトップページです-->
-  
-  <head>
+<!--index.html-->
+<!--githubで公開するドキュメントのトップページです-->
+
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="shortcut icon" href="rsc/Icon_2022_10_1.png">
+    <title>itota</title>
+
     <!--分割ファイルの読み込み-->
-    <script>
-      $(function(){
-        $("#header").load("html/header.html");
-        $("#footer").load("html/footer.html");
-      });
+    <script type="text/javascript">
+        $(function () {
+            $("#header").load("html/header.html");
+            $("#footer").load("html/footer.html");
+        });
     </script>
-    
-    <title>作成中</title>
 
-  </head>
+</head>
 
-  <body>
+<body class="text-center text-light bg-dark d-flex h-100">
+    <div class="cover-container d-flex w-100 mx-auto flex-column">
 
-    <!--ヘッダー-->
-    <header id="header" class="header"></header>
+        <!--ヘッダー-->
+        <header id="header"></header>
 
-    <div class="main">
-      <h1>プロジェクト</h1>
+        <div class="main">
+            <h1>プロジェクト</h1>
+        </div>
+
+        <!--フッター-->
+        <footer id="footer"></footer>
     </div>
-    
-    <!--フッター-->
-    <footer id="footer"></footer>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
-  </body>
-  
+</body>
+
 </html>
